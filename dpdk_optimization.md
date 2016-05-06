@@ -21,8 +21,6 @@
 
 4. 每个网卡只使用一个网口，因为网卡上的所有网口会共享PCIe总线的带宽。
 
-5. 
-
 ## BIOS
 
 1. 关掉一切省电模式
@@ -41,7 +39,7 @@
 ``` default_hugepagesz=1G hugepagesz=1G hugepages=8 ```
 
 2. 孤立CPU的核(Isolate CPU cores), 例如：?????
-``` isolcpus=2,3,4,5,6,7,8 
+``` isolcpus=2,3,4,5,6,7,8 ```
 
 ## DPDK设置
 
@@ -51,12 +49,12 @@
 
 2.1 查看网卡的PCI地址和设备ID
 ```
-# List all the NICs with PCI address and device IDs
+#List all the NICs with PCI address and device IDs
 lspci -nn |  grep Eth
 ```
 
 2.2 查看PCI设备对应的CPU(numa_node)
-``` cat /sys/bus/pci/devices/0000\:xx\:00.x/numa_node
+``` cat /sys/bus/pci/devices/0000\:xx\:00.x/numa_node ```
 
 2.3 将网卡绑定到对应CPU的核上(根据numa_node), 每个网口要绑定到不同核的逻辑核上。一个CPU核会分出多个逻辑核(logical cores)。
 
