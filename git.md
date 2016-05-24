@@ -14,6 +14,7 @@
 * git config --list:查看所有用户
 * git ls-files：看已经被提交的
 * git diff:查看具体修改内容
+
 ##需要注意的地方
 1.添加文件到仓库分两步：
 第一步：使用git add [file name]，可反复使用，添加多个文件；第二步：使用git commit完成。
