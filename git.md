@@ -3,7 +3,7 @@
 * git init :初始化仓库
 * git status:查看当前状态
 * git commit:提交
-* git commit -am "init":提交并且加注释
+* git commit -a -m "init":提交并且加注释
 * git commit -a:提交当前repos的所有改变
 * git commit -a -v:一般提交命令
 * git push origin  master:将文件推到服务器上
@@ -11,8 +11,8 @@
 * git log:查看历史记录
 * git rm [file name]：从git中删除指定文件
 * git clone:克隆仓库
-* git config --list:查看所有用户
-* git ls-files：看已经被提交的
+* git config --list:查看所有用户的配置信息
+* git ls-files：看已经被提交的文件
 * git diff:查看具体修改内容
 
 ##需要注意的地方
