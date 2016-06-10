@@ -11,9 +11,10 @@
 8. 下次修改的地方(go to newer position in change list): g,
 
 ##错别字检查
-1. 打开错别字检查: setlocal spell
+1. 检查错别字: setlocal spell 或者 set spell
 2. 指定检查的语言: setlocal spell spelllang=en\_us
 3. 把字符加到字典中: zg
+4. 关闭错别字检查 : set nospell
 
 ## System Clipboard 系统剪切板
 1. 检测是否支持系统剪切版（access the system clipboard）: vim --version 
