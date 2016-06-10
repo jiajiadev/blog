@@ -7,7 +7,7 @@
 2. 内存的Channel越多越好，内存Channel对DPDK的性能有最直接影响的因素之一(one of the most direct effects on performace)，每个内存Channel至少有一个DIMM插槽。测试机器有两个内存Channel,每个Channel有12个DIMM插槽。
 ``` dmidecode -t memory | grep Locator ```
 
-3. 内存的频率越高越好。测试机器的CPU频率是1333MHz.
+3. 内存的频率越高越好。如果存在多个不同频率的内存，内存运行时的频率由最慢的频率决定。测试机器的CPU频率是1333MHz.
 ``` dmidecode -t memory | grep Speed ```
 
 ## 网卡
