@@ -9,6 +9,11 @@
 6. 将光标移动到文件的第一行(go to top of file): gg
 7. 上次修改的地方(go to older position in change list): g;
 8. 下次修改的地方(go to newer position in change list): g,
+9. go to the beginning of current or previous word: b
+10. go to the beginning of next word: w
+11. go to the end of current or next word: e
+12. go to the end of the previous word: ge
+
 
 ##错别字检查
 1. 检查错别字: setlocal spell 或者 set spell
