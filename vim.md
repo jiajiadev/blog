@@ -12,7 +12,7 @@
 9. go to the beginning of current or previous word: b
 10. go to the beginning of next word: w
 11. go to the end of current or next word: e
-12. go to the end of the previous word: ge
+12. go to the end of previous word: ge
 
 
 ##错别字检查
