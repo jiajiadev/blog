@@ -1,0 +1,51 @@
+# Python
+*.py[cod]
+
+# tex
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.dvi
+*.bbl
+*.bcf
+*.blg
+*.pdf
+*.nav
+*.snm
+
+# temp
+*.tmp
+
+# vim
+*.swp
+
+# mac
+.DS_Store
+
+# bro
+*.log
+*.sublime-workspace
+
+# dataset
+*.csv
+*.tgz
+*.pcap
+*.cap
+
+# r language
+.Rhistory
+INSTALL.sublime-workspace
+
+# folders
+data/
+
+# test scripts
+test.py
+*.bak
+
+# c
+*.o
+
