@@ -1,3 +1,5 @@
+# Python Programming
+
 ##python中单引号(')、双引号（")和三引号（""")
   1.三种引号都表示字符串<br>
   2.单引号和双引号都表示单行的字符串<br>
@@ -111,3 +113,30 @@ dict[3]=C
 >>>print dict.values()
 ['A','B','C']
 ```
+
+## Get Public IP 
+Get host public IP address when it is behind firewall or NAT.
+```
+>>>import ipgetter
+>>> myip = ipgetter.myip()
+
+## Pip
+
+1. Install
+```
+pip install package_name
+```
+
+2. Upgrade
+```
+pip install package_name --upgrade
+```
+
+2.1 Upgrade on Mac OS
+
+```
+pip install package_name --upgrade --user
+```
+
+
+

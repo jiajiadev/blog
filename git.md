@@ -9,9 +9,9 @@
 * git commit -a -v:一般提交命令
 * git push origin  master:将文件推到服务器上
 * git add [file name]:添加文件到仓库
+* git rm -r --cached [file name]：从git库中删除指定文件,保留本地文件
+* git rm [file name]：从git库中删除指定文件
 * git log:查看历史记录
-* git rm [file name]：从git中删除指定文件
-* git rm -r --cached [file name]：只从git的库中删除指定文件,保留本地文件
 * git clone:克隆仓库
 * git config --list:查看所有用户的配置信息
 * git ls-files：看已经被提交的文件
