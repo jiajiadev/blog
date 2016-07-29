@@ -1,5 +1,6 @@
 # Python
 *.py[cod]
+*.ipynb
 
 # tex
 *.aux
@@ -15,6 +16,7 @@
 *.pdf
 *.nav
 *.snm
+*.log
 
 # temp
 *.tmp

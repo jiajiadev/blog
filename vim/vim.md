@@ -30,3 +30,12 @@
 1. 把命令结果读入vim : ":read!command"
 2. 切换到命令行 : "Ctl+z"
 3. 从命令行切换回vim : "fg"
+
+## 显示设置
+1. 显示行号：set nu
+2. 取消行号的显示: set nonu
+3. 显示空白字符，例如tab、行结束符等: set list
+4. 取消显示空白字符: set nolist
+5. 在屏幕底部显示当前光标的位置,包括行号、列号等, : set ruler
+6. 取消光标位置的显示: set noruler
+
