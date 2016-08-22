@@ -7,7 +7,6 @@
 * git commit -a -m "init":提交并且加注释
 * git commit -a:提交当前repos的所有改变
 * git commit -a -v:一般提交命令
-* git push origin  master:将文件推到服务器上
 * git add [file name]:添加文件到仓库
 * git rm -r --cached [file name]：从git库中删除指定文件,保留本地文件
 * git rm [file name]：从git库中删除指定文件
@@ -16,6 +15,23 @@
 * git config --list:查看所有用户的配置信息
 * git ls-files：看已经被提交的文件
 * git diff:查看具体修改内容
+
+## Remote Repo
+* git remote: list remote repos
+* git remote -v : list remote repos in verbose mode
+* git branch -r : list remote branches
+* git push [remotename] [localbranch]:[remotebranch]: push localbranch to remotename/remotebranch, if the localbranch is not exist on remote repo that it will automatically create a new remote branch
+* git push remotename :remotebranch: delete remotebranch before git version 1.7
+* git push remotename --delete remotebranch: delete remotebranch on git version 1.7 and newer
+
+## Local Repo
+* git branch: list local branches 
+* git branch <branch> : create a new branch
+* git checkout <branch> : change current branch
+* git merge <branch>: merge branch to current branch
+* git branch -d <branch>: delete a local branch
+* git branch -D <branch>: delete a local branch forcelly
+
 
 ##需要注意的地方
 * 添加文件到仓库分两步：
