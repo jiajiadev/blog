@@ -1,0 +1,59 @@
+\section{2016-10-21}
+
+\subsection{命名规则}
+
+\begin{itemize}
+  \item 变量命名使用名词
+  \item 函数命名使用动词，或者动词＋名词的格式
+  \item 变量命和函数命全部用小写字母，如果包含多个单词，单词之间使用下划线“{\_}”分割 
+  \item 变量名和函数名不使用拼音，例如，index.js中使用reli，替换为heat{\_}map。
+  \item 变量名和函数名要有实际意义，例如, index.js中使用gender
+\end{itemize}
+
+\subsection{编码}
+
+\begin{itemize}
+  \item python文件编码：.py文件的头部是否标明编码信息, 例如 {\#} -*- coding: utf-8 -*-
+  \item html文件编码：.html文件是否标明编码格式，例如 <meta charset="utf-8" />
+  \item javascript文件编码：
+\end{itemize}
+
+\subsection{缩进}
+
+\begin{itemize}
+  \item 统一代码的缩紧格式（包括python、html、javascript、css的代码）：每次缩进2个空格，注意不要使用Tab
+\end{itemize}
+
+\subsection{去除冗余}
+
+\begin{itemize}
+  \item python文件：import是否有冗余
+  \item python文件：是否有冗余的函数，即定义后没有被调用的函数
+  \item html文件：引入的js,css文件是否有冗余
+  \item 冗余函数：例如函数内部只有一行，且该行调用了其它函数
+\end{itemize}
+
+\subsection{语法的检查}
+
+\begin{itemize}
+  \item html文件：标签是否匹配，例如<div>与</div>的个数是否匹配
+  \item html文件：网页布局是否正确，例如分几行，分几列，每部分的宽度、高度等等
+  \item html文件：检查js库、css库，是否有漏掉的
+  \item 函数式编程：对于数据集的操作，尽量不要使用for等循环结构，使用map()、filter()、reduce()等函数式编程方法
+\end{itemize}
+
+
+\subsection{文档}
+
+\begin{itemize}
+  \item 函数：解决的问题、流程图
+  \item 网页：网页的布局，例如，网页分为几个容器，每个容器的位置、宽度、高度等
+  \item 使用手册：告诉用户如何使用
+\end{itemize}
+
+\subsection{团队合作}
+
+\begin{itemize}
+  \item 每天下午5点到6点，交换检查别人的代码
+  \item 下班之前将自己的代码、文档提交到Repo
+\end{itemize}

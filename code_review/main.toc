@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}命名规则}{2}{section.1}
+\contentsline {section}{\numberline {2}编码}{2}{section.2}
+\contentsline {section}{\numberline {3}缩进}{2}{section.3}
+\contentsline {section}{\numberline {4}去除冗余}{2}{section.4}
+\contentsline {section}{\numberline {5}语法的检查}{2}{section.5}
+\contentsline {section}{\numberline {6}文档}{3}{section.6}
+\contentsline {section}{\numberline {7}团队合作}{3}{section.7}
