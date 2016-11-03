@@ -137,6 +137,3 @@ pip install package_name --upgrade
 ```
 pip install package_name --upgrade --user
 ```
-
-
-
