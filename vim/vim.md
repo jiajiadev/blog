@@ -1,6 +1,6 @@
-#VIM 常用命令
+# VIM 常用命令
 
-##光标移动命令 (motion command)
+## 光标移动命令 (motion command)
 1. 向前翻一页(forward): ctrl-f (forward)
 2. 向后翻一页(backward): ctrl-b (backward)
 3. 向下翻半页(down): ctrl-d 
@@ -15,7 +15,7 @@
 12. go to the end of previous word: ge
 
 
-##错别字检查
+## 错别字检查
 1. 检查错别字: setlocal spell 或者 set spell
 2. 指定检查的语言: setlocal spell spelllang=en\_us
 3. 把字符加到字典中: zg
