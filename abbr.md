@@ -22,3 +22,13 @@
 - eth: ethernet
 - fwd: forward
 - nic: network interface card
+
+## Network
+- dur: duration
+- feat: feature
+- pred: prediction
+- rx: received
+- std: standard deviation
+- ti: time interval
+- ts: timestamp
+- tx:  transmitted
