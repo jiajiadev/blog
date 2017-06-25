@@ -1,6 +1,6 @@
-#git常用命令:
+# git常用命令:
 
-##基本命令
+## 基本命令
 * git init :初始化仓库
 * git status:查看当前状态
 * git commit:提交
