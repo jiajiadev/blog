@@ -2,28 +2,38 @@
 
 ## 本地库的操作
 
-* 查看当前状态
+* 查看当前状态  
     `git status`
-* 提交并添加注释
+    
+* 提交并添加注释  
     `git commit -a -m "related message"`
-* 添加文件到仓库
+    
+* 添加文件到仓库  
     `git add [file name]`
-* 从git库中删除指定文件,保留本地文件
+    
+* 从git库中删除指定文件,保留本地文件  
     `git rm -r --cached [file name]`
-* 查看具体修改内容
+    
+* 查看具体修改内容  
     `git diff`
-* List local branches
+    
+* 列出本地分支（List local branches）  
     `git branch`
-* Create a new branch
+    
+* 创建一个新的分支（Create a new branch）  
     `git branch [new branch name]` 
-* Change current branch
+    
+* 切换当前所在分支（Change current branch）  
     `git checkout [branch name]`
-* Merge branch to current branch
-    `git merge`
-* Delete a local branch 
-    `git branch -d` 
+    
+* 合并其它分支到当前分支（Merge branch to current branch）  
+    `git merge [branch name]`
+    
+* 删除指定分支（Delete a local branch）  
+    `git branch -d [branch name]` 
 
 ## 远程库的操作 
+
 * List remote repos in verbose mode
     `git remote -v`
 * List remote branches
