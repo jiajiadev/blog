@@ -4,52 +4,52 @@
 
 查看当前状态
 ```bash
-git status
+$ git status
 ```
   
 提交并添加注释
 ```bash
-git commit -a -m "related message"
+$ git commit -a -m "related message"
 ```
   
 添加文件到仓库  
 ```bash
-git add [file name]
+$ git add [file name]
 ```
   
 从git库中删除指定文件,保留本地文件  
 ```bash
-git rm -r --cached [file name]
+$ git rm -r --cached [file name]
 ```
   
 查看具体修改内容  
 ```bash
-git diff
+$ git diff
 ```
   
 列出本地分支（List local branches）  
 ```bash
-git branch
+$ git branch
 ```
   
 创建一个新的分支（Create a new branch）  
 ```bash
-git branch [new branch name]
+$ git branch [new branch name]
 ```
   
 切换当前所在分支（Change current branch）  
 ```bash
-git checkout [branch name]
+$ git checkout [branch name]
 ```
   
 合并其它分支到当前分支（Merge branch to current branch）  
 ```bash
-git merge [branch name]
+$ git merge [branch name]
 ```
   
 删除指定分支（Delete a local branch）  
 ```bash
-git branch -d [branch name]
+$ git branch -d [branch name]
 ```
 
 查看更新日志  
